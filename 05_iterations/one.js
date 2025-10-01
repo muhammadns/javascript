@@ -32,11 +32,11 @@ for (let index = 1; index <= 20; index++) {
 
 for (let index = 1; index <= 10; index++) {
     if (index == 5) {
-        console.log(`Foun 5`);
+        console.log(`Found 5`);
         continue
               
     }
-    console.log(`Valu of i is ${index}`);  
+    console.log(`Value of i is ${index}`);  
 };
 
 
