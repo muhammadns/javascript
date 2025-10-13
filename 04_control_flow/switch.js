@@ -24,7 +24,7 @@ if (Object.keys(emptyObj).length === 0) {
     console.log("Objet is empty");
 };
 
-// nullish oal
+// nullish Coalescing Operator
 let val1, val2, val3, val4;
 val1 = 5 ?? 10
 console.log(val1);
