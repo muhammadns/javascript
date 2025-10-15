@@ -1,4 +1,4 @@
-// whil
+// while
 
 let index = 0;
 

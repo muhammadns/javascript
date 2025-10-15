@@ -1,4 +1,4 @@
-
+// for of loop
 
 const arr = [1, 2, 3, 4, 5];
 for (const num of arr) {
@@ -65,3 +65,16 @@ mycoding.forEach(  (itm) => {
 });
 
 
+// MAP, values are unique and keep the order of values
+
+const map = new Map()
+map.set('USA',"United States of Ameria")
+map.set('UK',"United Kingdom")
+map.set('FR',"France")
+
+console.log(map);
+
+for (const [key, values] of map) {
+    console.log(key, ':-', values);
+    
+}
